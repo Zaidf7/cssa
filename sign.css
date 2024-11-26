@@ -1,0 +1,242 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(242, 252, 252);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 275px;
+    padding-top: 140px;
+    padding-left: 20px;
+
+}
+
+
+.start-text{
+    font-size: small;
+    line-height: 1.6;
+    color: rgb(115, 115, 115);
+}
+
+.new-text{
+    display: none;
+}
+
+.form-container{
+    width: 100%;
+
+}
+
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 34%;
+    height: 100%;
+    padding: 40px;
+    background-color: white;
+    font-size: small;
+   
+}
+
+.LR-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.space{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.date-input{
+    width: 204px;
+    height: 41px; 
+}
+
+input{
+    width: 200px;
+    height: 35px;
+}
+
+select{
+    width: 209px;
+    height: 45px;
+}
+
+.activity-label{
+    width: 441px;
+}
+
+.password-input{
+    width: 434px;
+}
+
+input[type=submit]{
+    width: 441px;
+    height: 45px;
+    color: white;
+    background-color: rgb(45, 196, 181);
+    border: 0cap;
+}
+
+span{
+    color: rgb(45, 196, 181);
+    
+}
+
+.privacy{
+    font-size:x-small;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.nav-li{
+    display: inline;
+    margin: 50px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color:rgb(215, 212, 212);
+}
+
+.footer-nav{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.899);
+    font-size: small;
+}
+
+.foot{
+    margin-top: 50x;
+}
+
+.nav-li:hover{
+    background-color: rgb(89, 88, 88);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .left-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 85%;
+        padding-top: 20px;
+
+    }
+
+    .start-text{
+        display: none;
+    }
+
+    .new-text{
+      display: inline-block;
+      font-size: small;
+      line-height: 1.6;
+      color: rgb(115, 115, 115);
+
+    }
+
+    .right-container{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        background-color: #ffffff;
+        font-size: small;
+        margin-left: 0;
+        gap: 25px;
+    
+    }
+    
+    .LR-container{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .space{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+  
+
+    input[type=text]{
+        width: 270px;
+        height: 43px;
+      
+    }
+    input[type=password]{
+        width: 270px;
+        height: 45px;
+      
+    }
+
+    .date-input{
+        width: 274px;
+        height: 41px; 
+    }
+    
+    input{
+        width: 200px;
+        height: 35px;
+    }
+    
+    select{
+        width: 278px;
+        height: 47px;
+    }
+    
+    .activity-label{
+        width: 277px;
+    }
+    
+    .password-input{
+        width: 434px;
+    }
+    
+    input[type=submit]{
+        width: 277px;
+        height: 45px;
+        color: white;
+        background-color: rgb(45, 196, 181);
+        border: 0cap;
+    }
+
+    .nav-li{
+        display: block;
+        text-align: center;
+    }
+
+}
+

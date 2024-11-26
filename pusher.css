@@ -1,0 +1,269 @@
+body{
+    background-color: rgb(239, 248, 253);
+
+}
+
+
+
+.topbar{
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 8px;
+}
+
+.topbar-navs{
+    margin-left: 370px;
+}
+
+.nav-link{
+    display: inline;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+li, h2{
+    color: rgb(5, 39, 69);
+
+}
+
+h2{
+    font-weight: 400;
+}
+
+.account-bttn{
+    background-color: rgb(239, 248, 253);
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.pusher-logo{
+    padding-top: 10px;
+}
+
+ul{
+    font-size: smaller;
+}
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    width: 892px;
+    height: 785px;
+    margin-left: 280px;
+    margin-top: 80px;
+
+}
+
+.left-container{
+    width: 582px;
+    height: 100%;
+    background-color: white;
+    padding-left:  40px;
+    padding-right: 40px;
+}
+
+.title{
+    margin-top: 43px;
+    margin-bottom: 40px;
+}
+
+.basic{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.bas{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.one, .two{
+    margin-top: 10px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.name-input{
+    width: 217px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(237, 239, 242);
+    border: 1px;
+}
+
+.mail-input{
+    width: 370px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(237, 239, 242);
+    border: 1px;
+}
+input{
+    padding-left: 10px;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.pay-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.card-input{
+    width: 484px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(237, 239, 242);
+    border: 1px;
+}
+
+.purchase{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.buy-bttn{
+    margin-bottom: 20px;
+}
+
+.pusher-bttn{
+    background-color: rgb(3, 140, 124);
+    color: white;
+    width: 495px;
+    height: 50px;
+    border-radius: 4px;
+    border: 0cap;
+}
+
+.help{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.help-icon{
+    margin-top: 15px;
+}
+
+.hesi{
+    color: rgb(100, 110, 122);
+}
+
+.stripe{
+    display: flex;
+    justify-content: center;
+}
+
+.right-container{
+    width: 312px;
+    height: 785px;
+    background-color: rgb(15, 121, 191);
+    color: white;
+    padding-left: 40px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    gap: px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+}
+
+.ninety-nine{
+    font-size: 60px;
+}
+
+.renew-text{
+    font-style: italic;
+}
+
+.switch{
+    margin-bottom: 30px;
+}
+
+.switch-text{
+    text-decoration: underline;
+}
+
+.ftp{
+    font-style: italic;
+}
+
+.wp, .twnt, .five{
+    font-weight: 800;
+}
+
+.Bitmap{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.kirk{
+    margin-top: 10px;
+}
+
+.copyright-container{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-text{
+    font-size: smaller;
+}
+
+.unicode{
+    color: rgb(100, 110, 122);
+}
+
+.terms{
+    color: rgb(49, 111, 143);
+}
+
+.nav-li{
+    display: inline;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(251, 245, 245);
+}
+
+.footer-nav{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.899);
+}
+
+.nav-li:hover{
+    background-color: rgb(119, 118, 118);
+    border-radius: 10px;
+}
